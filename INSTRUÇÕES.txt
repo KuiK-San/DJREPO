@@ -1,0 +1,23 @@
+1 - Passo:  Baixar Todos os contatos do google que vão receber a mensagem
+    - entrar em: https://contacts.google.com/
+    - Selecionar contatos que gostaria de baixar 
+    - Clicar nos 3 pontinhos (lado Direito)
+    - Exportar (CSV do Google)
+
+2 - Passo: Copiar arquivo contacts.csv para a pasta do programa (DJREPO)
+
+3 - Passo: Se houver imagem copia-lá para a pasta do programa
+
+4 - Passo: definir mensagem
+    - Acesse o arquivo .env e mude o "MENSAGEM=..." *IMPORTANTE: mensagem em apenas uma linha e não deixar espaço entre a mensagem e o igual* 
+    - Todos os lugares da mensagem onde tiver escrito "${nome}" será substituido pelo primeiro nome do contatos
+
+5 - Passo: Definir imagem
+    - Caso Haja uma imagem para ser enviada junto, no arquivo .env digite o nome completo da imagem com a extensão './PISTA 2 F.png'
+    - Se não quiser que seja feito o envio da imagem, colocar um # antes da palavra IMAGEM no arquivo .env
+
+6 - Passo: Abrir o Whatsapp e colocar para conectar em um novo whatsappweb
+
+7 - Passo: Clicar com botão direito no arquivo Start e depois "executar no Powershell"
+
+8 - Passo: Escanear o QRCODE que irá aparecer e aguardar a execução do sistema
